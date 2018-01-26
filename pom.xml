@@ -8,7 +8,7 @@
 	<name>zuul</name>
 	<description>zuul</description>
 	<parent>
-		<groupId>org.cpm.zerowastelife</groupId>
+		<groupId>org.cpm.zwl</groupId>
 		<artifactId>spring-boot-root</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
