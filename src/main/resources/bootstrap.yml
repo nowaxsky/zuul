@@ -1,0 +1,18 @@
+#application
+spring: 
+  application:
+    name: zuul
+  profiles:
+    active: local
+  cloud:
+    config:
+      name: myr-base, zuul
+      discovery:
+        enabled: true
+        service-id: config-server
+
+#server setting
+server: 
+  port: 8080
+management: 
+  port: 28080

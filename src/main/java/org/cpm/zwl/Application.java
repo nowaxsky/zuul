@@ -9,13 +9,13 @@ import org.springframework.context.annotation.Bean;
 @EnableDiscoveryClient
 @EnableZuulProxy
 @SpringBootApplication
-public class App {
-	public static void main(String[] args) {
-		SpringApplication.run(App.class, args);
-	}
-	
-	@Bean
-	public SimpleFilter simpleFilter() {
-		return new SimpleFilter();
-	}
+public class Application {
+  public static void main(String[] args) {
+    SpringApplication.run(Application.class, args);
+  }
+
+  @Bean
+  public SimpleFilter simpleFilter() {
+    return new SimpleFilter();
+  }
 }
