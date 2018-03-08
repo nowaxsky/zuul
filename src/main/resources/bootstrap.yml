@@ -6,7 +6,7 @@ spring:
     active: local
   cloud:
     config:
-      name: myr-base, zuul
+      name: zwl-base, zuul
       discovery:
         enabled: true
         service-id: config-server
