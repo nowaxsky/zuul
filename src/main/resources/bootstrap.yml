@@ -16,3 +16,7 @@ server:
   port: 8080
 management: 
   port: 28080
+
+#logging file
+logging:
+  file: D:/zwl/logs/zuul/zuul.log
